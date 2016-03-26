@@ -16,6 +16,34 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <div class="bc-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>" class="img-responsive">
+                </div>
+                <div class="col-md-6 text-right">
+                    <p><?php bloginfo('description'); ?></p>
+                    <p><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook.png"></a>
+                        <a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter.png"></a>
+                        <button type="button" class="btn btn-primary">Register now</button>
+                        <?php countdown() ?>
+                        <script language="JavaScript">
+                            TargetDate = "3/24/2017 9:00 AM";
+                            BackColor = "palegreen";
+                            ForeColor = "navy";
+                            CountActive = true;
+                            CountStepper = -1;
+                            LeadingZero = true;
+                            DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
+                            FinishMessage = "It is finally here!";
+                        </script>
+                        <script language="JavaScript" src="http://scripts.hashemian.com/js/countdown.js"></script>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <header id="head" class="bc-head">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
