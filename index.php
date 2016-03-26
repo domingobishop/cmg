@@ -1,22 +1,4 @@
 <?php get_header(); ?>
-
-<div class="bc-banner">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="intro-banner">
-                    <h1>
-                        <?php bloginfo('name'); ?>
-                    </h1>
-
-                    <h3>
-                        <?php bloginfo('description'); ?>
-                        <h3>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <main id="main" class="bc-main" role="main">
 <div id="content" class="bc-content">
     <section id="post-loop" class="bc-post-loop">

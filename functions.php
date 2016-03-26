@@ -4,7 +4,7 @@
 function bc_styles() {
     wp_register_style( 'bc-styles', get_template_directory_uri() . '/style.css', array(), 1.0, 'all' );
     wp_register_style( 'google-fonts',
-        'https://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400,700,400italic', array(), 1.0, 'all' );
+        'https://fonts.googleapis.com/css?family=Alex+Brush|Open+Sans:400,700,400italic', array(), 1.0, 'all' );
     wp_enqueue_style( 'bc-styles' );
     wp_enqueue_style( 'google-fonts' );
 }
@@ -53,4 +53,15 @@ function add_image_responsive_class($content) {
 }
 add_filter('the_content', 'add_image_responsive_class');
 
-?>
+function countdown(){
+    $date = strtotime("March 24, 2017 9:00 AM");
+    $remaining = $date - time();
+    $days_remaining = floor($remaining / 86400);
+    $hours_remaining = floor(($remaining % 86400) / 3600);
+    $minutes_remaining = floor((($remaining % 86400) % 3600) / 60);
+    $seconds_remaining = floor(((($remaining % 86400) % 3600) % 60) / 1);
+    echo $days_remaining . 'days';
+    echo $hours_remaining . 'hours';
+    echo $minutes_remaining . 'minutes';
+    echo $seconds_remaining . 'seconds';
+}
