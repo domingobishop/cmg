@@ -4,7 +4,7 @@
 function bc_styles() {
     wp_register_style( 'bc-styles', get_template_directory_uri() . '/style.css', array(), 1.0, 'all' );
     wp_register_style( 'google-fonts',
-        'https://fonts.googleapis.com/css?family=Arvo:400,700|Open+Sans:400,700,400italic', array(), 1.0, 'all' );
+        'https://fonts.googleapis.com/css?family=Alex+Brush|Open+Sans:400,700,400italic', array(), 1.0, 'all' );
     wp_enqueue_style( 'bc-styles' );
     wp_enqueue_style( 'google-fonts' );
 }

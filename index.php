@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-
 <main id="main" class="bc-main" role="main">
 <div id="content" class="bc-content">
     <section id="post-loop" class="bc-post-loop">

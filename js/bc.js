@@ -38,10 +38,10 @@ function CountDownTimer(dt, id)
         var minutes = Math.floor((distance % _hour) / _minute);
         var seconds = Math.floor((distance % _minute) / _second);
 
-        document.getElementById(id).innerHTML = '<div><small>days</small><strong>' + days + '</strong></div>';
-        document.getElementById(id).innerHTML += '<div><small>hrs</small><strong>' + hours + '</strong></div>';
-        document.getElementById(id).innerHTML += '<div><small>mins</small><strong>' + minutes + '</strong></div>';
-        document.getElementById(id).innerHTML += '<div><small>secs</small><strong>' + seconds + '</strong></div>';
+        document.getElementById(id).innerHTML = '<div><small>days</small><br/><strong>' + days + '</strong></div>';
+        document.getElementById(id).innerHTML += '<div><small>hrs</small><br/><strong>' + hours + '</strong></div>';
+        document.getElementById(id).innerHTML += '<div><small>mins</small><br/><strong>' + minutes + '</strong></div>';
+        document.getElementById(id).innerHTML += '<div><small>secs</small><br/><strong>' + seconds + '</strong></div>';
     }
 
     timer = setInterval(showRemaining, 1000);

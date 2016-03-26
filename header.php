@@ -23,7 +23,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>" class="img-responsive">
                 </div>
                 <div class="col-md-6 text-right">
-                    <p><?php bloginfo('description'); ?></p>
+                    <h3><?php bloginfo('description'); ?></h3>
                     <p><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook.png"></a>
                         <a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter.png"></a>
                         <button type="button" class="btn btn-primary">Register now</button>
