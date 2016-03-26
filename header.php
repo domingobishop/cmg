@@ -27,18 +27,6 @@
                     <p><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook.png"></a>
                         <a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter.png"></a>
                         <button type="button" class="btn btn-primary">Register now</button>
-                        <?php countdown() ?>
-                        <script language="JavaScript">
-                            TargetDate = "3/24/2017 9:00 AM";
-                            BackColor = "palegreen";
-                            ForeColor = "navy";
-                            CountActive = true;
-                            CountStepper = -1;
-                            LeadingZero = true;
-                            DisplayFormat = "%%D%% Days, %%H%% Hours, %%M%% Minutes, %%S%% Seconds.";
-                            FinishMessage = "It is finally here!";
-                        </script>
-                        <script language="JavaScript" src="http://scripts.hashemian.com/js/countdown.js"></script>
                     </p>
                 </div>
             </div>
@@ -56,11 +44,13 @@
                     <a class="navbar-brand" href="<?php bloginfo('siteurl'); ?>/"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
                         <?php bloginfo('name'); ?>
-                    </a></div>
+                    </a>
+                </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <?php wp_nav_menu(array('menu' => 'primary', 'items_wrap' => '<ul class="nav navbar-nav navbar-right" role="menu">%3$s</ul>', 'container' => false)); ?>
+                    <?php wp_nav_menu(array('menu' => 'primary', 'items_wrap' => '<ul class="nav navbar-nav" role="menu">%3$s</ul>', 'container' => false)); ?>
+                    <div id="countdown"></div>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
