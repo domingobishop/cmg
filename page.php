@@ -14,7 +14,7 @@
         <div id="content" class="content-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
+                    <div class="col-lg-10 col-md-offset-1">
                             <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                                 <div class="entry-content">
                                     <?php the_content(); ?>

@@ -84,18 +84,13 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
 	hyphens: none;
 	word-break: keep-all;
 }
-.site-content article {
+body {
 	word-wrap: normal;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	hyphens: none;
 }
-.widget-area .widget {
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	hyphens: none;
-	word-wrap: normal;
-}
+
 /**
  * Nav
  * ----------------------------------------------------------------------------
