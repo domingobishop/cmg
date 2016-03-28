@@ -15,6 +15,8 @@ function register_my_menu() {
   register_nav_menu( 'primary', __( 'Navigation Menu', 'blankcanvas' ) );
 }
 
+add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
+
 // Replaces the excerpt "more" text by a link
 function new_excerpt_more($more) {
     global $post;

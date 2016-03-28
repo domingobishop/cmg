@@ -3,8 +3,7 @@
     <div class="row bc-info">
       <div class="col-lg-8 col-lg-offset-2 text-center">
         <p><small>Copyright © <?php echo date("Y"); ?> <br>
-           Blank Canvas with Bootstrap <br>
-          Theme by <a href="http://chrisbishop.me.uk/" target="_blank">Chris Bishop</a></small></p>
+          Theme by <a href="http://creatistic.com.au/" target="_blank">Creatistic</a></small></p>
       </div>
     </div>
   </div>

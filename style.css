@@ -28,7 +28,7 @@ html, button, input, select, textarea {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Alex Brush', cursive;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
     color: #000;
 }
 a {
@@ -149,7 +149,9 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
  * ----------------------------------------------------------------------------
  */
 
-.page header, .single header {
+.bc-banner h3 {
+	font-family: 'Alex Brush', cursive;
+	font-size: 2.4em;
 
 }
 
@@ -160,7 +162,8 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
  
 footer {
 	padding: 1em 0;
-	background-color: #eee;
+	background-color: #0094ca;
+	color: #fff;
 }
 footer .bc-info {
 	padding: 1em;
@@ -175,16 +178,6 @@ footer ul {
  * ----------------------------------------------------------------------------
  */
 
-.bc-banner {
-
-}
-.intro-banner {
-    text-align: center;
-    color: #000;
-}
-.bc-post-loop article {
-    margin-bottom: 2em;
-}
 
 
 /**
@@ -192,8 +185,27 @@ footer ul {
  * ----------------------------------------------------------------------------
  */
 
-.bc-content {
-    margin-bottom: 2em;
+.banner-header {
+    position: relative;
+}
+.banner-header .page-header {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.banner-header .page-header h1 {
+	text-align: right;
+	background: #0094ca;
+	color: #fff;
+	padding: 0.5em 0.5em 0.5em 4em;
+}
+.home .banner-header h1 {
+	background: transparent;
+	font-family: 'Alex Brush', cursive;
+	font-size: 3em;
+}
+.content-area {
+	margin: 1em 0;
 }
 
 /**
