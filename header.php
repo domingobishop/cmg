@@ -16,6 +16,22 @@
 </head>
 
 <body <?php body_class(); ?>>
+    <div class="bc-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>" class="img-responsive">
+                </div>
+                <div class="col-md-6 text-right">
+                    <h3><?php bloginfo('description'); ?></h3>
+                    <p><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook.png"></a>
+                        <a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter.png"></a>
+                        <button type="button" class="btn btn-primary">Register now</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
     <header id="head" class="bc-head">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -28,11 +44,13 @@
                     <a class="navbar-brand" href="<?php bloginfo('siteurl'); ?>/"
                        title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
                         <?php bloginfo('name'); ?>
-                    </a></div>
+                    </a>
+                </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <?php wp_nav_menu(array('menu' => 'primary', 'items_wrap' => '<ul class="nav navbar-nav navbar-right" role="menu">%3$s</ul>', 'container' => false)); ?>
+                    <?php wp_nav_menu(array('menu' => 'primary', 'items_wrap' => '<ul class="nav navbar-nav" role="menu">%3$s</ul>', 'container' => false)); ?>
+                    <div id="countdown"></div>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
