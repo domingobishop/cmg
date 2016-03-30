@@ -154,7 +154,10 @@ body {
  * Footer
  * ----------------------------------------------------------------------------
  */
- 
+
+.sponsors {
+	margin: 1em 0;
+}
 footer {
 	padding: 1em 0;
 	background-color: #0094ca;
