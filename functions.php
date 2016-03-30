@@ -67,3 +67,17 @@ function countdown(){
     echo $minutes_remaining . 'minutes';
     echo $seconds_remaining . 'seconds';
 }
+
+// Register footer widgets
+add_action( 'widgets_init', 'bc_footer_widgets_init' );
+function bc_footer_widgets_init() {
+    register_sidebar( array(
+        'name' => __( 'Footer widget area', 'bc_footer_widgets' ),
+        'id' => 'footer-widget-area',
+        'description' => __( 'Widgets in this area will be shown in the footer.', 'bc_footer_widgets' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+}

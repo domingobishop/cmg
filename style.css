@@ -84,18 +84,13 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
 	hyphens: none;
 	word-break: keep-all;
 }
-.site-content article {
+body {
 	word-wrap: normal;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	hyphens: none;
 }
-.widget-area .widget {
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	hyphens: none;
-	word-wrap: normal;
-}
+
 /**
  * Nav
  * ----------------------------------------------------------------------------
@@ -159,7 +154,10 @@ h1, h2, h3, h4, p, ul, li, ol, dl, blockquote, .post-statement, .statement {
  * Footer
  * ----------------------------------------------------------------------------
  */
- 
+
+.sponsors {
+	margin: 1em 0;
+}
 footer {
 	padding: 1em 0;
 	background-color: #0094ca;
@@ -197,7 +195,7 @@ footer ul {
 	text-align: right;
 	background: #0094ca;
 	color: #fff;
-	padding: 0.5em 0.5em 0.5em 4em;
+	padding: 0.5em 0.5em 0.5em 3em;
 }
 .home .banner-header h1 {
 	background: transparent;
