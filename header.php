@@ -24,8 +24,11 @@
                 </div>
                 <div class="col-md-6 text-right">
                     <h3><?php bloginfo('description'); ?></h3>
-                    <p><a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook.png"></a>
+                    <p>
+                        <a href="https://www.facebook.com/ClareMastersGames/" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/facebook.png"></a>
                         <a href="#" target="_blank"><img src="<?php bloginfo('stylesheet_directory'); ?>/img/twitter.png"></a>
+                    </p>
+                    <p>
                         <button type="button" class="btn btn-primary">Register now</button>
                     </p>
                 </div>
