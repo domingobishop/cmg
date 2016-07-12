@@ -106,6 +106,8 @@ body {
 }
 .navbar-default .navbar-nav > li > a {
     color: #fff;
+    padding-left: 9px;
+    padding-right: 9px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color: #cbd501;
@@ -185,6 +187,7 @@ footer ul {
 
 .banner-header {
     position: relative;
+	min-height: 360px;
 }
 .banner-header .page-header {
 	position: absolute;
