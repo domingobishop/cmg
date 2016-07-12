@@ -187,7 +187,11 @@ footer ul {
 
 .banner-header {
     position: relative;
-	min-height: 360px;
+    min-height: 360px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-color: #eee;
 }
 .banner-header .page-header {
 	position: absolute;

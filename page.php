@@ -1,9 +1,10 @@
 <?php get_header(); ?>
 <?php while (have_posts()) : the_post(); ?>
-    <div class="banner-header">
-    <?php if (has_post_thumbnail() && !post_password_required() && !is_attachment()) : ?>
-        <?php the_post_thumbnail('full', array('class' => 'img-responsive')); ?>
-    <?php endif; ?>
+    <div class="banner-header" <?php
+    if ( has_post_thumbnail() ) {
+        $thumbnail_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'full' ); ?>
+        style="background-image: url(<?php echo $thumbnail_src[0]; ?>);"
+    <?php } ?>>
         <div class="page-header">
             <h1>
                 <?php the_title(); ?>
