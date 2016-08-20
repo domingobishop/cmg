@@ -158,6 +158,15 @@ body {
  */
 
 .sponsors {
+	border-top: 1px solid #ccc;
+	margin-top: 1em;
+	padding: 1.6em;
+}
+.major-sponsors {
+	padding: 1em;
+	background-color: #eee;
+}
+.major-sponsors h3 {
 	margin: 1em 0;
 }
 footer {

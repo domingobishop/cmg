@@ -13,6 +13,45 @@
     </div>
   </div>
 </div>
+<div class="major-sponsors">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Major Sponsors</h3>
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/5cs-logo.png" class="img-responsive">
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/639_North_West.png" class="img-responsive">
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/BSA_SATC_1_RGB.png" class="img-responsive">
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/CLARE-SIGNS.png" class="img-responsive">
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Design_Valley_Logo-01.png" class="img-responsive">
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/DP01_MasterLogo.png" class="img-responsive">
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/MAGIC_logo.png" class="img-responsive">
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Mr-Mick-logo.png" class="img-responsive">
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Plains-Producer.png" class="img-responsive">
+      </div>
+      <div class="col-sm-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/SJM_logo.png" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
 <footer id="footer" class="bc-footer">
   <div class="container">
       <?php if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
