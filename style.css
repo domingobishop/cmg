@@ -116,6 +116,11 @@ body {
     font-weight: 700;
     color: #fff;
 }
+@media screen and (min-width: 768px) {
+	.navbar-brand {
+		display: none;
+	}
+}
 #countdown {
 	padding: 0 15px;
 	display: inline-block;
@@ -183,11 +188,13 @@ footer ul {
 }
 
 /**
- * Index
+ * Home
  * ----------------------------------------------------------------------------
  */
 
-
+.home .entry-content p:first-child strong {
+	font-size: 1.4em;
+}
 
 /**
  * Page & Posts
