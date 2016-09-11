@@ -15,7 +15,7 @@ Text Domain: cmg
  * Global
  * ----------------------------------------------------------------------------
  */
- 
+
 body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif, sansserif;
 	/*The weights are 300 (light), 400 (normal), 600 (semibold), and 700 (bold) and the only acceptable CSS keyword is "normal". */
@@ -29,7 +29,7 @@ html, button, input, select, textarea {
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif, sansserif;
-    color: #000;
+	color: #000;
 }
 a {
 	color: #000;
@@ -102,19 +102,19 @@ body {
 	font-weight: 500;
 	border-radius: 0;
 	background-color: #0094ca;
-    /*box-shadow: 0px 5px 14px #ddd;*/
+	/*box-shadow: 0px 5px 14px #ddd;*/
 }
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
-    padding-left: 9px;
-    padding-right: 9px;
+	color: #fff;
+	padding-left: 9px;
+	padding-right: 9px;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color: #cbd501;
 }
 .navbar-default .navbar-brand {
-    font-weight: 700;
-    color: #fff;
+	font-weight: 700;
+	color: #fff;
 }
 @media screen and (min-width: 768px) {
 	.navbar-brand {
@@ -202,12 +202,12 @@ footer ul {
  */
 
 .banner-header {
-    position: relative;
-    min-height: 360px;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center center;
-    background-color: #eee;
+	position: relative;
+	min-height: 360px;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	background-color: #eee;
 }
 .banner-header .page-header {
 	position: absolute;
@@ -235,35 +235,35 @@ footer ul {
  */
 
 
- /**
- * Images
- * ----------------------------------------------------------------------------
- */
+/**
+* Images
+* ----------------------------------------------------------------------------
+*/
 
 .wp-caption.aligncenter, img.aligncenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .entry-content img.alignright, .entry-content .wp-caption.alignright {
-  margin-right: 0px;
-  float: right;
+	margin-right: 0px;
+	float: right;
 }
 .wp-caption.alignright, img.alignright {
 	margin: 5px 0 5px 20px;
 }
 .entry-content img.alignleft, .entry-content .wp-caption.alignleft {
-  margin-left: 0px;
-  float: left;
+	margin-left: 0px;
+	float: left;
 }
 .wp-caption.alignleft, img.alignleft {
 	margin: 5px 20px 5px 0px;
 }
 .wp-caption .wp-caption-text, .entry-caption, .gallery-caption {
-  color: #220e10;
-  font-size: 14px;
-  font-style: italic;
-  font-weight: 300;
+	color: #220e10;
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 300;
 }

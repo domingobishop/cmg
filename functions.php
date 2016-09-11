@@ -12,7 +12,7 @@ add_action( 'wp_enqueue_scripts', 'bc_styles' );
 
 add_action( 'after_setup_theme', 'register_my_menu' );
 function register_my_menu() {
-  register_nav_menu( 'primary', __( 'Navigation Menu', 'blankcanvas' ) );
+    register_nav_menu( 'primary', __( 'Navigation Menu', 'blankcanvas' ) );
 }
 
 add_theme_support( 'post-thumbnails', array( 'post', 'page' ) );
@@ -47,11 +47,11 @@ function bc_wp_title( $title, $sep ) {
 add_filter( 'wp_title', 'bc_wp_title', 10, 2 );
 
 function add_image_responsive_class($content) {
-   global $post;
-   $pattern ="/<img(.*?)class=\"(.*?)\"(.*?)>/i";
-   $replacement = '<img$1class="$2 img-responsive"$3>';
-   $content = preg_replace($pattern, $replacement, $content);
-   return $content;
+    global $post;
+    $pattern ="/<img(.*?)class=\"(.*?)\"(.*?)>/i";
+    $replacement = '<img$1class="$2 img-responsive"$3>';
+    $content = preg_replace($pattern, $replacement, $content);
+    return $content;
 }
 add_filter('the_content', 'add_image_responsive_class');
 
