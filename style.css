@@ -195,6 +195,9 @@ footer ul {
 .home .entry-content p:first-child strong {
 	font-size: 1.4em;
 }
+.tagline-logo {
+	width: 100%;
+}
 
 /**
  * Page & Posts
@@ -205,6 +208,7 @@ footer ul {
 	position: relative;
 	min-height: 360px;
 	overflow: hidden;
+	background-image: url(img/home.jpg);
 	background-size: cover;
 	background-position: center center;
 	background-color: #eee;
