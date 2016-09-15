@@ -22,36 +22,36 @@
     </div>
     <div class="row major-sponsors-wrapper">
       <div class="col-xs-4 col-sm-3 col-md-2">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/5cs-logo.png" class="img-responsive">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Mr-Mick-logo.png" class="img-responsive">
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/MAGIC_logo.png" class="img-responsive">
       </div>
       <div class="col-xs-4 col-sm-3 col-md-2">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/639_North_West.png" class="img-responsive">
       </div>
       <div class="col-xs-4 col-sm-3 col-md-2">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/BSA_SATC_1_RGB.png" class="img-responsive">
-      </div>
-      <div class="col-xs-4 col-sm-3 col-md-2">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/CLARE-SIGNS.png" class="img-responsive">
-      </div>
-      <div class="col-xs-4 col-sm-3 col-md-2">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Design_Valley_Logo-01.png" class="img-responsive">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Plains-Producer.png" class="img-responsive">
       </div>
       <div class="col-xs-4 col-sm-3 col-md-2">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/DP01_MasterLogo.png" class="img-responsive">
       </div>
+      <div class="col-xs-4 col-sm-3 col-md-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Design_Valley_Logo-01.png" class="img-responsive">
+      </div>
     </div>
     <div class="row major-sponsors-wrapper">
       <div class="col-xs-4 col-sm-3 col-md-2">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/MAGIC_logo.png" class="img-responsive">
-      </div>
-      <div class="col-xs-4 col-sm-3 col-md-2">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Mr-Mick-logo.png" class="img-responsive">
-      </div>
-      <div class="col-xs-4 col-sm-3 col-md-2">
-        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Plains-Producer.png" class="img-responsive">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/CLARE-SIGNS.png" class="img-responsive">
       </div>
       <div class="col-xs-4 col-sm-3 col-md-2">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/SJM_logo.png" class="img-responsive">
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/5cs-logo.png" class="img-responsive">
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/BSA_SATC_1_RGB.png" class="img-responsive">
       </div>
     </div>
   </div>
