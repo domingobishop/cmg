@@ -19,6 +19,8 @@
       <div class="col-sm-12">
         <h3>Major Sponsors</h3>
       </div>
+    </div>
+    <div class="row major-sponsors-wrapper">
       <div class="col-sm-2">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/5cs-logo.png" class="img-responsive">
       </div>
@@ -34,6 +36,8 @@
       <div class="col-sm-2">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/Design_Valley_Logo-01.png" class="img-responsive">
       </div>
+    </div>
+    <div class="row major-sponsors-wrapper">
       <div class="col-sm-2">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/DP01_MasterLogo.png" class="img-responsive">
       </div>
@@ -56,9 +60,7 @@
   <div class="container">
     <?php if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
       <div class="row">
-        <div class="col-md-12">
           <?php dynamic_sidebar( 'footer-widget-area' ); ?>
-        </div>
       </div>
     <?php } ?>
     <div class="row bc-info">

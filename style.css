@@ -41,7 +41,6 @@ a:hover, a:focus {
 	color: #000;
 }
 table {
-	border-bottom: 1px solid #ededed;
 	border-collapse: collapse;
 	border-spacing: 0;
 	font-size: 1em;
@@ -174,6 +173,19 @@ body {
 .major-sponsors h3 {
 	margin: 1em 0;
 }
+.major-sponsors-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+	flex-direction: row;
+}
+@media screen and (max-width: 600px) {
+	.major-sponsors-wrapper {
+		flex-direction: column;
+	}
+}
 footer {
 	padding: 1em 0;
 	background-color: #0094ca;
@@ -185,6 +197,10 @@ footer .bc-info {
 footer ul {
 	list-style-type: none;
 	padding: 0;
+}
+footer a {
+	font-weight: 400;
+	color: #fff;
 }
 
 /**
@@ -231,6 +247,16 @@ footer ul {
 }
 .content-area {
 	margin: 1em 0;
+}
+.table h3, .sports-details h3 {
+	margin: 0.6em 0;
+}
+.sports-heading {
+	padding: 8px;
+	background-color: #f9f9f9;
+}
+.sports-entry {
+	padding: 8px;
 }
 
 /**
