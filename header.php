@@ -19,13 +19,13 @@
 <div class="bc-banner">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-sm-6">
                 <a href="<?php bloginfo('siteurl'); ?>/"
                    title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="<?php bloginfo('name'); ?>" class="img-responsive">
                 </a>
             </div>
-            <div class="col-md-6 text-right">
+            <div class="col-sm-6 text-right">
                 <div class="tagline-logo clearfix">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/logo-tag.jpg" alt="<?php bloginfo('description'); ?>" class="img-responsive pull-right">
                 </div>
