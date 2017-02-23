@@ -42,6 +42,9 @@
     </div>
     <div class="row major-sponsors-wrapper">
       <div class="col-xs-4 col-sm-3 col-md-2">
+        <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/detpak.gif" class="img-responsive">
+      </div>
+      <div class="col-xs-4 col-sm-3 col-md-2">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/sponsors/CLARE-SIGNS.png" class="img-responsive">
       </div>
       <div class="col-xs-4 col-sm-3 col-md-2">
@@ -72,7 +75,8 @@
         </p>
         <p>
           Clare & Gilbert Valleys Council<br>
-          Toll Free 1800 242 520
+          Telephone: <a href="tel:+61 (08) 88 42 39 99">+61 (08) 88 42 39 99</a><br>
+          Email us: <a href="mailto:kjk@CGVC.sa.gov.au">kjk@CGVC.sa.gov.au</a>
         </p>
         <p><small>Copyright © <?php echo date("Y"); ?> <br>
             Website by <a href="http://creatistic.com.au/" target="_blank">Creatistic</a></small></p>
