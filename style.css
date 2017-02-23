@@ -132,6 +132,10 @@ body {
 	display: inline-block;
 	text-align: center;
 }
+#countdown .begin {
+	padding-top: 19.5px;
+	padding-bottom: 19.5px;
+}
 .btn-primary {
 	border-color: transparent;
 	background: #0094ca; /* Old browsers */
